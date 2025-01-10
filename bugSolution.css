@@ -1,0 +1,19 @@
+/* bugSolution.css */
+
+/* Corrected CSS to address specificity issues */
+.container {
+  background-color: lightblue;
+}
+
+.container p {
+  color: black; /* This will override .item in bug.css because of higher specificity */
+}
+
+.item {
+  color: red;
+}
+
+/* More specific selector for special cases*/
+.container .special-item {
+  color: green;
+} 
