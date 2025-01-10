@@ -1,0 +1,1 @@
+The CSS specificity is not correctly calculated, leading to unexpected styling overrides.  For example, an inline style might be overridden by a less specific selector in the stylesheet, or a selector with higher specificity might be unexpectedly overridden. This is often difficult to debug because the browser's developer tools may not clearly indicate the source of the conflict.
